@@ -209,20 +209,13 @@ span{
     color: #0a0a0a;
 }
 
-
-
-
-
-
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-image: url(/img/backgroun4.png);
+    background-image: url(img/backgroun4.png);
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
@@ -233,17 +226,7 @@ body {
 
 
 /* HERO */
-.hero {
-    height: 100vh;
-    background-image: url(/img/backorund3.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 
 /* PRODUCT GRID */
 .product-container {
@@ -451,7 +434,7 @@ section{
     border-radius: 50%;
     background: rgba(76, 72, 72, 0.25);
     border: 3px solid rgba(255,255,255,.6);
-    background-image: url("/img/profile.png");
+    background-image: url("img/profile.png");
     background-size: cover;
     background-position: center;
 }
@@ -651,6 +634,26 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+      @media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    height: auto;
+    
+    gap: 10px;
+  }
+  .logo h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
   }
 
   
