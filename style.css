@@ -2,11 +2,6 @@
     margin: 0;
 }
 
-  .nav-links i {
-    margin: 0;
-  }
-
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -190,6 +185,13 @@ span{
     color: #0a0a0a;
 }
 
+
+
+
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -200,11 +202,25 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
-    padding-top: 80px;
+    padding-top: 150px;
+
 }
 
+/* NAV */
 
 
+/* HERO */
+.hero {
+    height: 100vh;
+    background-image: url(img/backorund3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 /* PRODUCT GRID */
 .product-container {
@@ -582,6 +598,7 @@ section{
 
 }
 
+
 @media (max-width: 768px) {
 
     nav {
@@ -614,7 +631,7 @@ section{
         height: 40px;
     }
 
-    /*links for phone*/
+    /*: nav-links */
     .nav-links {
         order: 4;
         position: fixed;
@@ -634,7 +651,7 @@ section{
     body {
         padding-bottom: 70px;
     }
-
+}
 
 @media (max-width: 768px) {
   .hero h1 {
@@ -668,24 +685,6 @@ section{
     justify-content: center;
   }
 
-      @media (max-width: 768px) {
-
-  nav {
-    flex-direction: column;
-    height: auto;
-    
-    gap: 10px;
+  .search-box input {
+    width: 90%;
   }
-  .logo h1{
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-  }
-
-  
