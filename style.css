@@ -182,12 +182,7 @@ body{
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(/img/backgroun4.png);
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: sans-serif;
-    padding-top: 70px;
+
 }
 
 /* NAV */
