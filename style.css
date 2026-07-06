@@ -165,7 +165,7 @@ span{
 
 
 body{
-    background-image: url(img/backgroun4.png);
+    background-image: url(/img/backgroun4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
