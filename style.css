@@ -295,7 +295,9 @@ nav{
     text-align:center;
 
     padding:20px;
-
+    margin:0; 
+    position: cover;
+    margin: top 0;;
 }
 
 .hero h1{
@@ -760,7 +762,7 @@ section p{
 
     justify-content:center;
 
-    margin:120px 0;
+    margin-top: 100px;
 
 }
 
