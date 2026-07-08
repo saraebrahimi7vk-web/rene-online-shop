@@ -295,9 +295,10 @@ nav{
     text-align:center;
 
     padding:20px;
-    margin:0; 
-    position: cover;
-    margin: top 0;;
+
+    margin-left:160px;
+    
+    
 }
 
 .hero h1{
